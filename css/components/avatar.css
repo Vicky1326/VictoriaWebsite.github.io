@@ -1,0 +1,39 @@
+
+.social-container{
+    border: 5px solid rgb(110, 38, 209);
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    margin-inline: 50px;
+    max-width: 200px;
+    background-color: rgb(255, 254, 255);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.social-container h2{
+    font-size: 2em;
+    color: bisque;
+    margin-bottom: 10px;
+}
+
+.social-icon{
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.social-icon img{
+    height: 40px;
+    width:fit-content;
+}
+
+.social-icon:hover img{
+    filter:drop-shadow(0.8);
+}
+
+.title{
+    justify-content: center;
+    display: flex;
+}
